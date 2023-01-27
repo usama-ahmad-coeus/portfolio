@@ -1,0 +1,92 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "I have build a responsive website that will display images. links and description. This is my first portfolio project.",
+  "main": "index.js",
+  "homepage": "https://usama-ahmad-coeus.github.io/portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usama-ahmad-coeus/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usama-ahmad-coeus/portfolio/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "node-sass": "^8.0.0"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
