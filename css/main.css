@@ -426,3 +426,18 @@ main {
   text-decoration: none;
   cursor: pointer;
 }
+
+/* The Close Button */
+.close8 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close8:hover,
+.close8:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
