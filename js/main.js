@@ -243,8 +243,7 @@ window.onclick = function(event) {
 }
 
 // Get the modal
-var modal8 = document.getElementById("myModal7");
-var modal9 = document.getElementById("myModal8");
+var modal8 = document.getElementById("myModal8");
 
 // Get the button that opens the modal
 var btn8 = document.getElementById("myBtn8");
