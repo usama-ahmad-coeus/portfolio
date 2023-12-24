@@ -10,25 +10,40 @@
 
   <link rel="stylesheet" href="css/main.css">
   <style>
-    /* Add this style for the LinkedIn badge animation */
+    body {
+      background: rgba(40, 62, 74, 0.8);
+    }
+
+    .arrow {
+      font-size: 24px; /* Adjust the size as needed */
+      color: #ffffff; /* Adjust the color as needed */
+      margin-top: 10px; /* Adjust the margin-top as needed */
+    }
+
     @keyframes fadeIn {
       from {
         opacity: 0;
       }
+
       to {
         opacity: 1;
       }
     }
 
     .LI-profile-badge {
-      animation: fadeIn 1s ease-in-out; /* Apply animation to the LinkedIn badge */
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .lg-heading span {
+      font-size: 120%;
+      font-weight: bold;
     }
   </style>
   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
   <title>Welcome To My Portfolio</title>
 </head>
 
-<body id="bg-img">
+<body style="background-image: url('img/projects/project8.png'); background-size: cover; background-position: center;">
   <header>
     <div class="menu-btn">
       <div class="btn-line"></div>
@@ -78,15 +93,13 @@
 
   <main id="home" style="display: flex; align-items: center;">
 
-    <!-- Left Section -->
     <div style="flex: 1; padding-right: 10px; margin-bottom: 20px;">
-      <h1 class="lg-heading badge-base LI-profile-badge" style="font-size: 80px; color: #283e4a; margin-bottom: 5px;"
-        data-locale="xx_XX" data-size="medium" data-theme="dark" data-type="VERTICAL"
-        data-vanity="usama-ahmad-a333511a6" data-version="v1">
-        <a class="badge-base__link LI-simple-link">Usama <span class="text-secondary">Ahmad</span></a>
+      <h1 class="lg-heading badge-base LI-profile-badge"
+        style="font-size: 80px; color: #283e4a; font-family; margin-bottom: 5px;" data-locale="xx_XX" data-size="medium"
+        data-theme="dark" data-type="VERTICAL" data-vanity="usama-ahmad-a333511a6" data-version="v1">
+        <a class="badge-base__link LI-simple-link" style="color: red;"><span>U</span>sama <span>A</span>hmad</a>
       </h1>
     </div>
-
     <div style="flex: 1;">
       <video controls>
         <source src="uploads/u.mp4" type="video/mp4">
@@ -97,12 +110,6 @@
   </main>
 
   <script src="js/main.js"></script>
-  <script>
-    // Add vibration effect after 5 seconds
-    setTimeout(() => {
-      navigator.vibrate([200, 100, 200]);
-    }, 5000);
-  </script>
 </body>
 
 </html>
